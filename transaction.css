@@ -1,0 +1,41 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    border: 2px solid black;
+
+    /* transition-property: all; 
+       transition-duration: 2s;
+       transition-timing-function: steps(5); 
+       transition-timing-function: ease-in;
+       transition-delay: 2s; */
+
+        transition: all 2s ease-in 0.1s; 
+        position: absolute;
+        top:100px ;
+        left: 100px;
+       /* transform: rotate(45deg); */
+        /* rotate: x 180deg; */
+
+       /* transform: scale(0.5);     size mea chota ya bada hona */
+       /* transform: scale(1,2); */
+       /* transform: scaleY(2); */
+}
+
+div:hover{
+    background:red;
+    color: aliceblue;
+    font-size: 19px;
+    /* transform: scaleX(2);       hover pea bhi kar sakte hai bada x axis par*/
+    /* transform: rotate(180deg); */
+
+    /* transform: translateX(200px); */
+    
+    transform: skew(90deg);
+
+}
+
+div:active{
+    background-color: green; /* click and hold */
+}
+
