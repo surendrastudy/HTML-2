@@ -1,0 +1,45 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aqua;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* animation-name: coloranimate;
+    animation-duration: 0.5s;
+     animation-timing-function: ease-in; 
+     animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */ 
+
+    animation: coloranimate 2s ease-in 0.5s infinite alternate;
+}
+
+@keyframes coloranimate{
+    /* from{background-color: aqua;}
+    to{background-color: red;} */
+
+    /* from {
+        left: 0px;
+    background-color: yellow;
+}
+    to {
+        left: 200px;
+    background: red;
+} */
+    0% {
+        left: 0px;
+    background-color: yellow;
+      }
+
+    50%{
+        background-color: blue;
+    }
+
+    100% {
+        left: 200px;
+    background: red;
+}
+}
+
