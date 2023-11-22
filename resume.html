@@ -24,6 +24,7 @@
         h3{
             background-color: rgba(255, 166, 0, 0.755);
             color: black;
+            
         }
         span{
             float: right;
@@ -31,18 +32,32 @@
         /* li{
             list-style-type:inherit;
         } */
-        @media(max-width:600px){
+        
+        @media only screen and (max-width:600px){
             span{
+                background-image: url('https://i.ibb.co/jLLM5g0/resume-user.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 67.5px;
+                width: 70px;
+            }
+        }
 
+
+        @media  (max-width:600px){
+            .nope{
                 visibility: hidden;
             }
         }
+
     </style>
 </head>
 <body>
     <h4 class="center">Resume</u></h3>
     <header><div>
-       <span ><img src="WhatsApp Image 2023-09-14 at 19.39.51.jpg" alt="photo" height="67.5" width="70"></div></span>
+       <span ><img src="WhatsApp Image 2023-09-14 at 19.39.51.jpg" alt="photo" height="67.5" width="70" class="nope"></div>
+    </span>
+
     <h2>Surendraprasad Yadav</h2>
     <p>+19 932621986 <br>
     Email Id: yraj35093@gmail.com</p>
